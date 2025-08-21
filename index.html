@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en-Us">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="./letter-m.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="preload"
+			href="/fonts/inter.woff2"
+			as="font"
+			type="font/woff2"
+			crossorigin
+		/>
+		<link rel="preload" href="/hero.webp" as="image" />
+		<meta
+			name="description"
+			content="Portfolio of Md. Abdullah Junayed - Full‑Stack Web Developer. View my projects, skills, and contact info."
+		/>
+		<meta
+			name="keywords"
+			content="Full Stack Developer, React, Node.js, Portfolio"
+		/>
+		<meta name="robots" content="index, follow" />
+		<link rel="manifest" href="/manifest.json" />
+		<meta name="theme-color" content="#4f46e5" />
+		<title>My Portfolio</title>
+		<script>
+			(function () {
+				try {
+					var theme = localStorage.getItem("theme") || "system";
+					var systemDark = window.matchMedia(
+						"(prefers-color-scheme: dark)"
+					).matches;
+					var isDark = theme === "dark" || (theme === "system" && systemDark);
+					if (isDark) document.documentElement.classList.add("dark");
+				} catch (e) {}
+			})();
+		</script>
+	</head>
+	<body>
+		<div id="root"></div>
+		<script type="module" src="/src/main.jsx"></script>
+	</body>
+</html>

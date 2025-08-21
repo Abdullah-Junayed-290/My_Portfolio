@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Block files or folders you don’t want indexed
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /private/
+Disallow: /drafts/
+
+# Location of your sitemap
+Sitemap: https://yourdomain.com/sitemap.xml
