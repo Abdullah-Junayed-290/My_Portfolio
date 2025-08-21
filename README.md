@@ -68,13 +68,16 @@ npm run build
 ## 📸 Screenshots
 
 ### 🖥️ Desktop View
-![Homepage Screenshot](./assets/screenshots/homepage-desktop.png)
+![Homepage Screenshot](./assets/screenshots/homepage-desktop.jpg)
 
 ### 📱 Mobile View
-![Mobile Screenshot](./assets/screenshots/homepage-mobile.png)
+![Mobile Screenshot](./assets/screenshots/homepage-mobile.jpg)
 
 ### 📂 Projects Page
-![Projects Screenshot](./assets/screenshots/projects-page.png)
+![Projects Screenshot](./assets/screenshots/projects-page.jpg)
+
+### ⭐ Lighthouse Socre
+![Lighthouse Screenshot](./assets/screenshots/lighthouse_score.jpg)
 
 ---
 
