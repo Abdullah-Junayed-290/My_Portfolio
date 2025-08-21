@@ -7,6 +7,7 @@ const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
 const Projects = lazy(() => import("./pages/Projects"));
 const Contact = lazy(() => import("./pages/Contact"));
+const SuspenseFallback = lazy(() => import("./components/SuspenseFallback"));
 
 export default function App() {
 	return (
@@ -14,7 +15,12 @@ export default function App() {
 			<Navbar />
 			<main className="pt-4">
 				<Suspense
-					fallback={<div className="text-center py-10">Loading...</div>}
+					fallback={
+						<SuspenseFallback
+							brand="Md. Abdullah Junayed"
+							message="Loading portfolio..."
+						/>
+					}
 				>
 					<Routes>
 						<Route path="/" element={<Home />} />
