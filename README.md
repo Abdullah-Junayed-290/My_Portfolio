@@ -94,7 +94,7 @@ npm run build
 
 **Md. Abdullah Junayed**\
 📧 abdullahjunayed771@gmail.com\
-🌐 [Portfolio Website](https://yourdomain.com)\
+🌐 [Portfolio Website](https://md-abdullah-junayed-portfolio.vercel.app/)\
 💼 [LinkedIn](https://linkedin.com/in/your-profile)\
 💻 [GitHub](https://github.com/Abdullah-Junayed-290)
 
