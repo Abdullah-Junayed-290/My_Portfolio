@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -13,41 +14,41 @@ export default function Footer() {
 
         {/* Navigation links */}
         <nav className="flex gap-6 text-sm">
-          <a href="/about" className="text-slate-600 hover:text-indigo-500 dark:text-slate-300 dark:hover:text-indigo-400">
+          <Link to="/about" className="text-slate-600 hover:text-indigo-500 dark:text-slate-300 dark:hover:text-indigo-400">
             About
-          </a>
+          </Link>
           <a href="/projects" className="text-slate-600 hover:text-indigo-500 dark:text-slate-300 dark:hover:text-indigo-400">
             Projects
           </a>
-          <a href="/contact" className="text-slate-600 hover:text-indigo-500 dark:text-slate-300 dark:hover:text-indigo-400">
+          <Link to="/contact" className="text-slate-600 hover:text-indigo-500 dark:text-slate-300 dark:hover:text-indigo-400">
             Contact
-          </a>
+          </Link>
         </nav>
 
         {/* Social icons */}
         <div className="flex gap-4 text-lg">
-          <a
-            href="mailto:abdullahjunayed771@gmail.com"
+          <Link
+            to="mailto:abdullahjunayed771@gmail.com"
             className="text-slate-600 hover:text-indigo-500 dark:text-slate-300 dark:hover:text-indigo-400"
           >
             <FaEnvelope />
-          </a>
-          <a
-            href="https://github.com/Abdullah-Junayed-290"
+          </Link>
+          <Link
+            to="https://github.com/Abdullah-Junayed-290"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-600 hover:text-indigo-500 dark:text-slate-300 dark:hover:text-indigo-400"
           >
             <FaGithub />
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://www.linkedin.com/in/your-profile"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-600 hover:text-indigo-500 dark:text-slate-300 dark:hover:text-indigo-400"
           >
             <FaLinkedin />
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
