@@ -8,6 +8,7 @@ const About = lazy(() => import("./pages/About"));
 const Projects = lazy(() => import("./pages/Projects"));
 const Contact = lazy(() => import("./pages/Contact"));
 const SuspenseFallback = lazy(() => import("./components/SuspenseFallback"));
+const Footer = lazy(() => import("./components/Footer"));
 
 export default function App() {
 	return (
@@ -30,6 +31,7 @@ export default function App() {
 					</Routes>
 				</Suspense>
 			</main>
+			<Footer />
 		</div>
 	);
 }
