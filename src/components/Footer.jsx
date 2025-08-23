@@ -17,9 +17,9 @@ export default function Footer() {
           <Link to="/about" className="text-slate-600 hover:text-indigo-500 dark:text-slate-300 dark:hover:text-indigo-400">
             About
           </Link>
-          <a href="/projects" className="text-slate-600 hover:text-indigo-500 dark:text-slate-300 dark:hover:text-indigo-400">
+          <Link href="/projects" className="text-slate-600 hover:text-indigo-500 dark:text-slate-300 dark:hover:text-indigo-400">
             Projects
-          </a>
+          </Link>
           <Link to="/contact" className="text-slate-600 hover:text-indigo-500 dark:text-slate-300 dark:hover:text-indigo-400">
             Contact
           </Link>
